@@ -73,7 +73,7 @@ if __name__ == "__main__":
     password = driver.find_element_by_css_selector('input.bloko-input.bloko-input_password')
     password.click()
     time.sleep(1)
-    password.send_keys('19751999-dt12')
+    password.send_keys('YOUR PASSWORD')
     time.sleep(3)
 
 
@@ -92,8 +92,7 @@ if __name__ == "__main__":
     emailElem = driver.find_element_by_xpath("//input[@inputmode='email']")
     time.sleep(1)
     emailElem.click()
-    # slowly_send_keys(emailElem, 'terekhin.daniil.a@gmail.com')
-    emailElem.send_keys('terekhin.daniil.a@gmail.com')
+    emailElem.send_keys('YOUR EMAIL')
 
     emailElem.submit()
     time.sleep(3)
